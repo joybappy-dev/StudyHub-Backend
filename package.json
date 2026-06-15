@@ -12,10 +12,11 @@
   },
   "license": "ISC",
   "author": "Joy Bappy",
-  "type": "commonjs",
-  "main": "index.js",
+  "type": "module",
+  "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node --watch src/index.js"
   },
   "dependencies": {
     "express": "^5.2.1"
