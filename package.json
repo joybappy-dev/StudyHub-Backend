@@ -1,0 +1,20 @@
+{
+  "name": "studyhub-backend",
+  "version": "1.0.0",
+  "description": "Express backend project with mvc structure and mongoose professional setup.",
+  "homepage": "https://github.com/joybappy-dev/StudyHub-Backend#readme",
+  "bugs": {
+    "url": "https://github.com/joybappy-dev/StudyHub-Backend/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joybappy-dev/StudyHub-Backend.git"
+  },
+  "license": "ISC",
+  "author": "Joy Bappy",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
