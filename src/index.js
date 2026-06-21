@@ -12,10 +12,9 @@ const usersCollection = db.collection("users");
 app.get("/", (req, res) => res.send("Hello From Server"));
 
 app.post("/users", async (req, res) => {
-  const newUser = req;
-  console.log(newUser);
-  //   const user = await usersCollection.insertOne(newUser);
-  //   res.status(200).json({ message: user });
+  const newUser = req.body;
+  const user = await usersCollection.insertOne(newUser);
+  res.status(201).json({ message: "User registered successfully" });
 });
 
 app.listen(process.env.PORT, () => console.log("Server is up 🚀"));
